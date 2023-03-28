@@ -1,11 +1,11 @@
 import java.util.*;
 import java.util.ArrayList;
 
-public class Match{
+public class MatchSchedulling{
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
         ArrayList<String> array=new ArrayList<>();
-        System.out.println("enter number of teams");
+        System.out.println("Enter number of teams:");
         int team_num=sc.nextInt();
         int s=0;
         while(s<team_num){
@@ -55,6 +55,7 @@ class winloss{
 }
 
 OUTPUT:
+Enter number of teams:
 3
 t1
 t2
